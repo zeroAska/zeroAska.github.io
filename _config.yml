@@ -12,13 +12,13 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon
 url: https://zeroAska.github.io # the base hostname & protocol for your site
-baseurl: /me # the subpath of your site, e.g. /blog/
+baseurl: #/me # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -40,7 +40,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -84,7 +84,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  #You can even add a little note about which of these is the best way to reach you.
+  rzh AT umich DOT edu
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -116,9 +116,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+#external_sources:
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -161,6 +161,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - teaching
+  - cv
 keep_files:
   - CNAME
   - .nojekyll

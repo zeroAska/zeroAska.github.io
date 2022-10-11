@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: In reversed chronological order. 
+title: Publications
+description: <a href="https://scholar.google.com/citations?user=WA7OygIAAAAJ">Google Scholar Link</a> 
 years: [2022, 2021, 2020, 2019]
 nav: true
 nav_order: 1
