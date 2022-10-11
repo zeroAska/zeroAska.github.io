@@ -1,0 +1,7 @@
+1. add publications:
+	a) add bibtex file in _bibliography/papers.bib
+	b) edit year in  _pages/publications.md
+
+2. change about, short bio, personal photo, news:
+	a) edit _pages/about.md
+	b) image folder: assets/img/

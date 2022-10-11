@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+description: rzh [at] umich [dot] edu 
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_cicular: false # crops the image to make it circular
+  image: unnamed-4.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Room 242 NAME Building</p>
+    <p>2600 Draper Drive</p>
+    <p>Ann Arbor, MI 48105</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm currently a Robotics PhD student at the <a href="https://curly.engin.umich.edu">Computational Autonomy and Robotics Laboratory (CURLY)</a> and the <a href="http://robots.engin.umich.edu">Perceptual Robotics Laboratory (PeRL)</a> at University of Michigan, Ann Arbor, adviced by <a href="https://name.engin.umich.edu/people/ghaffari-maani/">Professor Maani Ghaffar</a> and <a href="http://robots.engin.umich.edu/~ryan/">Professor Ryan Eustice</a>. I also collabrated with <a href="https://ece.umich.edu/faculty/grizzle/">Professor Jessy Grizzle</a>. My research interest lies in the theory and applications of robot perception, computer vision, and geometric machine learning algorithms.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+
+Additionally, I'm also a student investor in the space of Robotics/AI at <a href="https://zli.umich.edu/wolverine-venture-fund">Wolverine Venture Fund</a>.
