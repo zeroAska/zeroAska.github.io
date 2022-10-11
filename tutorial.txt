@@ -5,3 +5,8 @@
 2. change about, short bio, personal photo, news:
 	a) edit _pages/about.md
 	b) image folder: assets/img/
+
+
+3. change github repo
+   a) edit _pages/repositories.md
+   b) Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.

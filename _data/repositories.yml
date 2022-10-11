@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - zeroAska
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - UMich-CURLY/unified_cvo
+  - UMich-BipedLab/SegmentationMapping
+  - zeroAska/BGKOctoMap-CRF
+

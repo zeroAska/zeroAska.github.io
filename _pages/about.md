@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I'm currently a Robotics PhD student at the <a href="https://curly.engin.umich.edu">Computational Autonomy and Robotics Laboratory (CURLY)</a> and the <a href="http://robots.engin.umich.edu">Perceptual Robotics Laboratory (PeRL)</a> at University of Michigan, Ann Arbor, adviced by <a href="https://name.engin.umich.edu/people/ghaffari-maani/">Professor Maani Ghaffar</a> and <a href="http://robots.engin.umich.edu/~ryan/">Professor Ryan Eustice</a>. I also collabrated with <a href="https://ece.umich.edu/faculty/grizzle/">Professor Jessy Grizzle</a>. My research interest lies in the theory and applications of robot perception, computer vision, and geometric machine learning algorithms.
+I'm currently a Robotics PhD student at the <a href="https://curly.engin.umich.edu">Computational Autonomy and Robotics Laboratory (CURLY)</a> and the <a href="http://robots.engin.umich.edu">Perceptual Robotics Laboratory (PeRL)</a> at University of Michigan, Ann Arbor, adviced by <a href="https://name.engin.umich.edu/people/ghaffari-maani/">Professor Maani Ghaffari</a> and <a href="http://robots.engin.umich.edu/~ryan/">Professor Ryan Eustice</a>. I also collabrated with <a href="https://ece.umich.edu/faculty/grizzle/">Professor Jessy Grizzle</a>. My research interest lies in the theory and applications of robot perception, computer vision, and geometric machine learning algorithms.
 
 
 
