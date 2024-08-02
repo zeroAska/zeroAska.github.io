@@ -22,4 +22,4 @@ I'm currently a Robotics PhD student at the <a href="https://curly.engin.umich.e
 
 
 
-Additionally, I'm also a student investor in the space of Robotics/AI at <a href="https://zli.umich.edu/wolverine-venture-fund">Wolverine Venture Fund</a>.
+Additionally, I also served as a student investor in the space of Robotics/AI at <a href="https://zli.umich.edu/wolverine-venture-fund">Wolverine Venture Fund</a>.
