@@ -8,9 +8,9 @@ profile:
   align: right
   image: unnamed-4.jpg
   address: >
-    <p>Room 242 NAME Building</p>
-    <p>2600 Draper Drive</p>
-    <p>Ann Arbor, MI 48105</p>
+    <p>Toyota Research Institute</p>
+    <p>4440 El Camino Real</p>
+    <p>Los Altos, CA 94022</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
