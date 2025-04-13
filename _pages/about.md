@@ -6,7 +6,7 @@ description: rzh [at] umich [dot] edu
 
 profile:
   align: right
-  image: unnamed-4.jpg
+  image: photo_25.jpg
   address: >
     <p>Toyota Research Institute</p>
     <p>4440 El Camino Real</p>
