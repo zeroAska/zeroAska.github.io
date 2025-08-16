@@ -2,8 +2,8 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: <a href="https://scholar.google.com/citations?user=WA7OygIAAAAJ">Google Scholar Link</a> 
-years: [2024, 2023, 2022, 2021, 2020, 2019]
+description: <a href="https://scholar.google.com/citations?user=N1GoYCMAAAAJ&hl=en">Google Scholar Link</a> 
+years: [2025, 2024, 2023, 2022, 2021, 2020, 2019]
 nav: true
 nav_order: 1
 ---
