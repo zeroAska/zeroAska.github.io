@@ -18,8 +18,10 @@ Links:
 
 Generalized-CVO estimates rigid SE(3) transforms between point clouds by maximizing a inner product with anisotropic kernels in a reproducing kernel Hilbert space. The method avoids explicit correspondences and combines geometric and appearance features with second-order Riemannian optimization on the SE(3) manifold.
 
-<div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D7dJ3j6qx7g" title="Generalized-CVO demo video" allowfullscreen></iframe>
+Note: The original project website at `sites.google.com/tri.global/gcvo` is no longer maintained; this page now serves as the project page.
+
+<div class="row">
+        {% include figure.html path="assets/img/gcvo/gcvo_teaser.png" alt="overview" title="overview" class="img-fluid rounded z-depth-1" %}
 </div>
 
 <div class="row">
@@ -34,4 +36,7 @@ Generalized-CVO estimates rigid SE(3) transforms between point clouds by maximiz
     Frame-to-frame registration examples from the GCVO repository: KITTI Seq 00 LiDAR odometry and ETH3D table_3 RGB-D tracking, both without local mapping or loop closure.
 </div>
 
-The original project website at `sites.google.com/tri.global/gcvo` is no longer maintained; this page now serves as the project page.
+<div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D7dJ3j6qx7g" title="Generalized-CVO demo video" allowfullscreen></iframe>
+</div>
+
