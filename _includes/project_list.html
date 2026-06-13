@@ -1,0 +1,19 @@
+<ul class="project-list">
+  {%- for project in include.projects -%}
+    {%- unless project.path contains ".backup" -%}
+    <li class="project-list-item">
+      <div>
+        <a class="project-list-title" href="{{ project.url | relative_url }}">{{ project.title }}</a>
+        {%- if project.description %}
+        <p>{{ project.description }}</p>
+        {%- endif %}
+      </div>
+      {%- if project.github %}
+      <a class="project-list-code" href="{{ project.github }}" aria-label="{{ project.title }} code repository">
+        <i class="fab fa-github"></i>
+      </a>
+      {%- endif %}
+    </li>
+    {%- endunless -%}
+  {%- endfor -%}
+</ul>

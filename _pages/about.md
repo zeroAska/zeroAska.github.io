@@ -13,7 +13,9 @@ profile:
     <p>Los Altos, CA 94022</p>
 
 news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
+projects: true # includes project cards on the homepage
+repositories: true # includes GitHub code cards on the homepage
 social: true  # includes social icons at the bottom of the page
 ---
 

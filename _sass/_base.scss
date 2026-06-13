@@ -444,6 +444,34 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
+  .project-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  .project-list-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    p {
+      margin: 0.25rem 0 0;
+      color: var(--global-text-color-light);
+    }
+  }
+
+  .project-list-title {
+    font-weight: 600;
+  }
+
+  .project-list-code {
+    flex: 0 0 auto;
+    font-size: 1.1rem;
+  }
+
   h2.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);

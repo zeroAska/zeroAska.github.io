@@ -6,6 +6,7 @@ description: <a href="https://scholar.google.com/citations?user=N1GoYCMAAAAJ&hl=
 years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019]
 nav: true
 nav_order: 1
+home_anchor: publications
 ---
 <!-- _pages/publications.md -->
 <div class="publications">

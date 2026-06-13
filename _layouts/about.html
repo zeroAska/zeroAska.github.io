@@ -36,9 +36,9 @@ layout: default
           </div>
           {%- endif %}
 
-          <div class="clearfix">
+          <section id="about" class="clearfix">
             {{ content }}
-          </div>
+          </section>
 
           {% if page.news -%}
           <!-- News -->
@@ -47,6 +47,14 @@ layout: default
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
+          {%- endif %}
+          {% if page.projects -%}
+            <!-- Projects -->
+            {%- include home_projects.html %}
+          {%- endif %}
+          {% if page.repositories -%}
+            <!-- Code -->
+            {%- include home_repositories.html %}
           {%- endif %}
           {%- if page.social %}
           <!-- Social -->

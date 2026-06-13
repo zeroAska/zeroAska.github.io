@@ -5,6 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 2
+home_anchor: projects
 display_categories: 
 horizontal: false
 ---
@@ -17,50 +18,12 @@ horizontal: false
   <h2 class="category">{{ category }}</h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {%- unless project.path contains ".backup" -%}
-      {% include projects_horizontal.html %}
-      {%- endunless -%}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {%- unless project.path contains ".backup" -%}
-      {% include projects.html %}
-      {%- endunless -%}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
+  {% include project_list.html projects=sorted_projects %}
   {% endfor %}
 
 {%- else -%}
 <!-- Display projects without categories -->
   {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {%- unless project.path contains ".backup" -%}
-      {% include projects_horizontal.html %}
-      {%- endunless -%}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {%- unless project.path contains ".backup" -%}
-      {% include projects.html %}
-      {%- endunless -%}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
+  {% include project_list.html projects=sorted_projects %}
 {%- endif -%}
 </div>

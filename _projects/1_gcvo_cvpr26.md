@@ -16,7 +16,7 @@ Links:
 <a href="https://github.com/ToyotaResearchInstitute/gcvo">Code</a> |
 <a href="https://www.youtube.com/watch?v=D7dJ3j6qx7g">Demo video</a>
 
-Generalized-CVO estimates rigid SE(3) transforms between point clouds by maximizing a kernelized inner product in a reproducing kernel Hilbert space. The method avoids explicit correspondences and combines geometric and appearance features with second-order optimization on the SE(3) manifold.
+Generalized-CVO estimates rigid SE(3) transforms between point clouds by maximizing a inner product with anisotropic kernels in a reproducing kernel Hilbert space. The method avoids explicit correspondences and combines geometric and appearance features with second-order Riemannian optimization on the SE(3) manifold.
 
 <div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D7dJ3j6qx7g" title="Generalized-CVO demo video" allowfullscreen></iframe>
