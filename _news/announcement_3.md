@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: Dec 2025
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+One <a href="https://ieeexplore.ieee.org/abstract/document/11106281/">paper</a> accepted at TPAMI!

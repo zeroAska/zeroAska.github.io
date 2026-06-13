@@ -2,8 +2,8 @@ github_users:
   - zeroAska
 
 github_repos:
+  - ToyotaResearchInstitute/gcvo
   - UMich-CURLY/unified_cvo
   - UMich-BipedLab/SegmentationMapping
   - zeroAska/BGKOctoMap-CRF
   - intel/CeTune
-

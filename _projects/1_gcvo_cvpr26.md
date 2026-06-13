@@ -1,70 +1,37 @@
 ---
 layout: page
-title: Generalized-CVO 
-description: Fast and Correspondence-Free Point Cloud Registration in RKHS with Second Order Riemannian Optimization
-img: 
+title: Generalized-CVO
+description: Fast and correspondence-free point cloud registration in RKHS with second-order Riemannian optimization
+img: assets/img/gcvo/kitti_00_gcvo_2nd_order.png
 importance: 1
 category: work
 ---
-CVPR 2026 (Highlight)
+
+CVPR 2026 Highlight
 
 Authors: Ray Zhang, Marcus Greiff, Thomas Lew, John Subosits
 
-Paper: https://arxiv.org/abs/2606.10019
+Links:
+<a href="https://arxiv.org/abs/2606.10019">Paper</a> |
+<a href="https://github.com/ToyotaResearchInstitute/gcvo">Code</a> |
+<a href="https://www.youtube.com/watch?v=D7dJ3j6qx7g">Demo video</a>
 
-Code: https://github.com/ToyotaResearchInstitute/gcvo
+Generalized-CVO estimates rigid SE(3) transforms between point clouds by maximizing a kernelized inner product in a reproducing kernel Hilbert space. The method avoids explicit correspondences and combines geometric and appearance features with second-order optimization on the SE(3) manifold.
 
-Note: the original website, sites.google.com/tri.global/gcvo expires, and this page is the new project website.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Frame-to-Frame LiDAR registration with GCVO on KITTI Seq 00, without local mapping or loop closure.
+<div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D7dJ3j6qx7g" title="Generalized-CVO demo video" allowfullscreen></iframe>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcvo/kitti_00_gcvo_2nd_order.png" alt="KITTI sequence 00 GCVO second-order trajectory compared with ground truth" title="KITTI seq 00 GCVO 2nd-order trajectory" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Frame-to-Frame RGB-D registration with GCVO on ETH3D Seq table_3, without local mapping or loop closure.
-</div>
-
-
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcvo/eth3d_table_3_gcvo_2nd_order.png" alt="ETH3D table_3 GCVO second-order tracking result" title="ETH3D table_3 GCVO 2nd-order tracking" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Correspondence-Free Formulation with Second Order Riemannian Optimization
+    Frame-to-frame registration examples from the GCVO repository: KITTI Seq 00 LiDAR odometry and ETH3D table_3 RGB-D tracking, both without local mapping or loop closure.
 </div>
 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Feature-less Race Track Environment
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Closed-loop Autonomy Experiment at 20m/s
-</div>
-
-
-
-
-
-
+The original project website at `sites.google.com/tri.global/gcvo` is no longer maintained; this page now serves as the project page.
