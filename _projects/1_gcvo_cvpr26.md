@@ -23,6 +23,9 @@ Note: The original project website at `sites.google.com/tri.global/gcvo` is no l
 <div class="row">
         {% include figure.html path="assets/img/gcvo/gcvo_teaser.png" alt="overview" title="overview" class="img-fluid rounded z-depth-1" %}
 </div>
+<div class="caption">
+      Overview of the correspondence-free formulation in RKHS, and the second order Riemannian solver.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -38,5 +41,8 @@ Note: The original project website at `sites.google.com/tri.global/gcvo` is no l
 
 <div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D7dJ3j6qx7g" title="Generalized-CVO demo video" allowfullscreen></iframe>
+</div>
+<div class="caption">
+  Demo of LiDAR localization using G-CVO with a prebuilt LiDAR map on an autonomous car.
 </div>
 
